@@ -34,6 +34,8 @@ Partial output from `v doctor`:
 ```
 OS: linux, Pop!_OS 21.04
 Processor: 6 cpus, 64bit, little endian, AMD Ryzen 5 4500U with Radeon Graphics
+...
+V full version: V 0.2.4 87fe15e.b4d1429
 ```
 
 Partial output from `lscpu`:
