@@ -121,7 +121,7 @@ Benchmark #1: ./fib
 
 ## Conclusion
 
-V beat Python by a significant margin in all the scenarios. Python took 49.3 seconds (on average) to run the program.
+V was faster than Python by a significant margin in all the scenarios. Python took 49.3 seconds (on average) to run the program.
 
 Even when V used the default TCC compiler, the V version ran in approximately 2.2 seconds, around **22 times** faster than Python. Remember that this version uses TCC that comes bundled with V.
 
@@ -129,4 +129,4 @@ When we use the `-prod` flag with V to directly run the executable, the runtime 
 
 Obviously, the runtime for executable only makes sense if you precompile the program and deploy it. In that case, it will run as fast as possible, while your Python deployment will have longer runtime. Therefore, for quick prototyping, it is recommended to just use `v run program.v` and use `v -prod program.v -o path/to/binary/program` for compilation.
 
-Additionally, there was no optimisation performed by us, the developer. This is just a simple demonstration and in case you want to generate Fibonacci numbers, prefer the formulae that are available on the Wikipedia page.
+Additionally, there was no optimisation performed by us, the developers. This is just a simple demonstration and in case you want to generate Fibonacci numbers, prefer the formulae that are available on the Wikipedia page.
